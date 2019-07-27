@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#F2CB61"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textboth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="중요+긴급"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/bothbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일정추가"
+            android:textColor="@color/md_grey_black" />
+
+        <Button
+            android:id="@+id/bothbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회"
+            android:textColor="@color/md_grey_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#6B66FF"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/texturgent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="긴급"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/urgentbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일정추가"
+            android:textColor="@color/md_grey_black" />
+
+        <Button
+            android:id="@+id/urgentbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회"
+            android:textColor="@color/md_grey_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FAE0D4"
+        android:gravity="right"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textimportant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="중요"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/importantbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:shadowColor="@color/md_grey_black"
+            android:text="일정추가"
+            android:textColor="@color/md_grey_black"
+            android:textColorLink="@color/md_grey_black" />
+
+        <Button
+            android:id="@+id/importantbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회"
+            android:textColor="@color/md_grey_black"
+            android:textColorLink="@color/md_grey_black" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:background="#F2CB61"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textnothing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="해당 없음"
+            android:textSize="35dp" />
+
+        <Button
+            android:id="@+id/nothingbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="일정추가"
+            android:textColor="@android:color/black"
+            android:textColorLink="@color/md_grey_black" />
+
+        <Button
+            android:id="@+id/nothingbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="조회"
+            android:textColor="@color/md_grey_black"
+            android:textColorLink="@color/md_grey_black" />
+    </LinearLayout>
+
+
+</LinearLayout>
